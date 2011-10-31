@@ -1,0 +1,4 @@
+include CHANGELOG
+include README.rst
+global-exclude *.pyc
+global-exclude .DS_Store
