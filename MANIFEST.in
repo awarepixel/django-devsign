@@ -1,4 +1,9 @@
+include AUTHORS
 include CHANGELOG
+include LICENSE
 include README.rst
+include requirements.txt
+recursive-include docs *
+recursive-exclude docs/_build *
 global-exclude *.pyc
 global-exclude .DS_Store

@@ -11,27 +11,23 @@ A simple middleware to show predefined message bars on the top of the page. This
 Usage
 =====
 
-Add a dictionary DEVSIGN_SITE_MESSAGES to your settings.py:
+Add a dictionary DEVSIGN_SITE_MESSAGES to your settings.py::
 
-::
-
-    DEVSIGN_SITE_MESSAGES = {
-        [Site ID]: {
+    DEVSIGN_MESSAGES = {
+        [Host name]: {
             'message': [Message],
             'style': [CSS Styles]
         }
     }
 
-Example:
+Example::
 
-::
-
-    DEVSIGN_SITE_MESSAGES = {
-        2: {
+    DEVSIGN_MESSAGES = {
+        'dev.example.org': {
             'message': 'You are using the DEVELOPMENT site.',
             'style': 'background-color: purple; color: white; font-size: 16px; padding: 12px;'
         },
-        3: {
+        'experimental.example.org': {
             'message': 'Experimental branch.',
             'style': 'background-color: black; color: white; font-size: 16px; padding: 12px;'
         }

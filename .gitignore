@@ -1,6 +1,11 @@
+.DS_Store
 *.pyc
 *.egg-info
+*.egg
+docs/_build
 build
 dist
-.DS_Store
-.tox
+MANIFEST
+.idea
+*_private.py
+*_private.pyc
