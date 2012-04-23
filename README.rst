@@ -11,7 +11,7 @@ A simple middleware to show predefined message bars on the top of the page. This
 Usage
 =====
 
-Add a dictionary DEVSIGN_SITE_MESSAGES to your settings.py::
+Add a dictionary DEVSIGN_MESSAGES to your settings.py::
 
     DEVSIGN_MESSAGES = {
         [Host name]: {
